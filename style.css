@@ -133,7 +133,7 @@ background: #fff !important;
 padding-left: 20px !important;
 }
 }
-@media screen and (max-width: 768px) {
+
 @media screen and (max-width: 768px) {
 .gc-main-content{
 margin-left: 0px !important;    
@@ -256,6 +256,5 @@ background: #fff !important;
 }
 .item-with-image{
 padding-left: 0px !important;
-}
 }
 }
