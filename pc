@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Tenor+Sans&display=swap');
+@media screen and (min-width: 768px){
+.info{
+padding-left: 20px;
+}
+.glyphicon {
+opacity: 0;    
+}
+.user-state-bg.item-a {
+    position: relative; /* Для абсолютного позиционирования дочерних элементов */
+    align-items: center; /* Выравниваем дочерние элементы по вертикали */
+    padding-left: 10px; /* Оставляем место для иконки слева (настройте под ваш дизайн) */
+  }
+.fa {
+    position: absolute;
+    left: 15px; /* Позиционируем иконку слева */
+    top: 50%; /* Сдвигаем вниз на 50% */
+    transform: translateY(-50%); /* Корректируем положение */    
+}
+.lesson-list {
+background: transparent;    
+}
+.lesson-list li .item-a {
+background: linear-gradient(171.36deg, #C47963 1.76%, #5D3A30 120.93%);
+border-radius: 10px 0px 0px 10px;
+}
+.lesson-list li .info {
+ min-height: 100px;
+ margin-left: 40px !important;
+ }         
+.lesson-list li {   
+ border-radius: 10px; 
+}
+.breadcrumbs a { /* Мини меню возврата назад "< тренинги" */
+ font-family: 'Manrope' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 16px !important;
+color: #999999;    
+display: flex; /* Включаем Flexbox для контейнера */
+align-items: center; /* Выравнивание по центру по вертикали */   
+}
+.breadcrumbs a:before { /* Стрелка слева для мини меню возврата назад "< тренинги" */
+content: "";
+display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
+width: 15px; /* Ширина изображения */
+height: 15px; /* Высота изображения */
+background: url('https://static.tildacdn.com/tild3236-3233-4137-b865-626135396466/Arrow_10.svg') left center no-repeat;
+background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
+margin-left: 5px; /* Отступ слева от псевдоэлемента */
+}   
+h1 {
+font-family: 'Manrope' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 20px !important;
+color: #D6917D;       
+}
+.user-state-label{
+font-family: 'Manrope' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 13px !important;    
+}
+.user-state-has_mission .user-state-label {
+color: #333 !important;    
+}
+.user-state-need_accomplish .user-state-label{
+color: #BF3939; 
+display: flex; /* Включаем Flexbox для контейнера */
+align-items: flex-start; /* Выравнивание по центру по вертикали */   
+}
+
+.user-state-need_accomplish .user-state-label:before {
+content: "";
+display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
+width: 15px; /* Ширина изображения */
+height: 15px; /* Высота изображения */
+background: url('https://static.tildacdn.com/tild3930-3935-4135-b535-386232383162/Circle_Warning.svg') left center no-repeat;
+padding-top: 20px;
+background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
+margin-left: 0px; /* Отступ слева от псевдоэлемента */
+margin-right: 5px;    
+}
+
+.title {
+font-family: 'Manrope' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 24px !important;
+color: #95604B !important;    
+}
+
+.lesson-list .description {
+font-family: 'Manrope' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 13px !important;    
+color: #5D5C5C    
+}
+
+.user-state-not_reached .user-state-label:before{
+content: "";
+display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
+width: 18px; /* Ширина изображения */
+height: 18px; /* Высота изображения */
+background: url('https://static.tildacdn.com/tild3961-3231-4336-a161-633664626136/Lock.svg') left center no-repeat;
+background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
+margin-left: 0px; /* Отступ слева от псевдоэлемента */
+margin-right: 10px !important;    
+}
+.user-state-not_reached .user-state-label{
+color:#5E5C5C;
+display: flex; /* Включаем Flexbox для контейнера */
+align-items: center; /* Выравнивание по центру по вертикали */   
+}
+
+.user-state-not_reached .link{
+font-family: 'Manrope' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 24px !important;
+color: #999999 !important;    
+}
+.lesson-list li.user-state-not_reached .item-a {
+background: linear-gradient(171.36deg, #C9C9C9 1.76%, #606060 120.93%);
+border-radius: 10px 0px 0px 10px;    
+}
+.lesson-list li .info {
+background: #fff !important;    
+}
+.item-with-image{
+padding-left: 20px !important;
+}
+}
+@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+.gc-main-content{
+margin-left: 0px !important;    
+} 
+.info{
+padding-left: 20px;
+}
+.lesson-list {
+background: transparent;    
+}
+.lesson-list li .item-a {
+background: linear-gradient(171.36deg, #C47963 1.76%, #5D3A30 120.93%);
+border-radius: 10px 0px 0px 10px;
+}
+.lesson-list li .info {
+ min-height: 100px;
+ margin-left: 25px !important;
+ }         
+.lesson-list li {   
+ border-radius: 10px; 
+}
+.breadcrumbs a { /* Мини меню возврата назад "< тренинги" */
+ font-family: 'Manrope' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 16px !important;
+color: #999999;    
+display: flex; /* Включаем Flexbox для контейнера */
+align-items: center; /* Выравнивание по центру по вертикали */   
+}
+.breadcrumbs a:before { /* Стрелка слева для мини меню возврата назад "< тренинги" */
+content: "";
+display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
+width: 15px; /* Ширина изображения */
+height: 15px; /* Высота изображения */
+background: url('https://static.tildacdn.com/tild3236-3233-4137-b865-626135396466/Arrow_10.svg') left center no-repeat;
+background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
+margin-left: 5px; /* Отступ слева от псевдоэлемента */
+}   
+h1 {
+font-family: 'Manrope' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 20px !important;
+color: #D6917D;       
+}
+.user-state-label{
+font-family: 'Manrope' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 13px !important;    
+}
+.user-state-has_mission .user-state-label {
+color: #333 !important;    
+}
+.user-state-need_accomplish .user-state-label{
+color: #BF3939; 
+display: flex; /* Включаем Flexbox для контейнера */
+align-items: flex-start; /* Выравнивание по центру по вертикали */   
+    
+}
+
+.user-state-need_accomplish .user-state-label:before {
+content: "";
+display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
+width: 15px; /* Ширина изображения */
+height: 15px; /* Высота изображения */
+background: url('https://static.tildacdn.com/tild3930-3935-4135-b535-386232383162/Circle_Warning.svg') left center no-repeat;
+padding-top: 20px;
+background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
+margin-left: 0px; /* Отступ слева от псевдоэлемента */
+margin-right: 5px;    
+}
+
+.title {
+font-family: 'Manrope' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 24px !important;
+color: #95604B;    
+}
+
+.lesson-list .description {
+font-family: 'Manrope' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 13px !important;    
+color: #5D5C5C    
+}
+
+.user-state-not_reached .user-state-label:before{
+content: "";
+display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
+width: 18px; /* Ширина изображения */
+height: 18px; /* Высота изображения */
+background: url('https://static.tildacdn.com/tild3961-3231-4336-a161-633664626136/Lock.svg') left center no-repeat;
+background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
+margin-left: 0px; /* Отступ слева от псевдоэлемента */
+margin-right: 10px !important;    
+}
+.user-state-not_reached .user-state-label{
+color:#5E5C5C;
+display: flex; /* Включаем Flexbox для контейнера */
+align-items: center; /* Выравнивание по центру по вертикали */   
+    
+}
+.user-state-not_reached .link{
+font-family: 'Manrope' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 24px !important;
+color: #999999 !important;    
+}
+.lesson-list li.user-state-not_reached .item-a {
+background: linear-gradient(171.36deg, #C9C9C9 1.76%, #606060 120.93%);
+border-radius: 10px 0px 0px 10px;    
+}
+.lesson-list li .info {
+background: #fff !important;    
+}
+.item-with-image{
+padding-left: 0px !important;
+}
+}
+}
