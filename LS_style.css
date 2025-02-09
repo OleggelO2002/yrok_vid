@@ -200,6 +200,7 @@ background: url('https://static.tildacdn.com/tild3238-6137-4937-b035-35376239653
 height: 180px;
 background-size: 100%;
 margin-top: 0 !important;
+border-radius: 10px;
 }
 .info {
 background: transparent !important;
@@ -733,6 +734,7 @@ height: 180px;
 width: 88vw !important;
 background-size: 100%;
 margin-top: 0 !important;
+border-radius: 10px;
 }
 .info {
 background: transparent !important;
