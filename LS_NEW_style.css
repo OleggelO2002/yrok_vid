@@ -1,0 +1,1057 @@
+@media screen and (min-width: 768px) {
+.Vvodnii {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Блик */
+.blink-effect {
+    position: absolute;
+    top: -150%;
+    left: -100%;
+    width: 300%;
+    height: 300%;
+    background: linear-gradient(30deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 80%);
+    filter: blur(8px); /* Делаем мягкое свечение */
+    opacity: 0.8; /* Чуть сильнее, но не перебор */
+    animation: blink-move 1.5s linear infinite;
+}
+
+/* Анимация движения */
+@keyframes blink-move {
+    0% { left: -120%; }
+    100% { left: 120%; }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*====================== Меню ================================ */
+
+.page-control_stream-view {
+background: #F5F1ED    
+}
+
+.Chat p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    color: #D6917D;
+    margin-bottom: 0;
+}
+.xdget-block .Chat {
+width: 381px;
+height: 71px;
+background: linear-gradient(90deg, #FFDEE2 0%, #FDE1D3 100%);
+border-radius: 10px;
+display: flex;
+align-items: center; /* Центрирование по вертикали */
+justify-content: center; /* Центрирование по горизонтали */    
+margin-bottom: 10px;
+}
+.Chat .html-content {
+    display: flex;
+    align-items: center; /* Выравнивание текста и иконки */
+    gap: 10px; /* Расстояние между текстом и иконкой */
+}
+
+.xdget-block .zoom {
+width: 381px;
+height: 71px;
+background: linear-gradient(90deg, #FFDEE2 0%, #FDE1D3 100%);
+border-radius: 10px;
+display: flex;
+align-items: center; /* Центрирование по вертикали */
+justify-content: center; /* Центрирование по горизонтали */     
+}
+.zoom p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    color: #D6917D;
+    margin-bottom: 0;   
+}
+.zoom .html-content {
+    display: flex;
+    align-items: center; /* Выравнивание текста и иконки */
+    gap: 10px; /* Расстояние между текстом и иконкой */
+}
+
+.xdget-block .Workbook {
+width: 381px;
+height: 71px;
+background: linear-gradient(90deg, #FFDEE2 0%, #FDE1D3 100%);
+border-radius: 10px;
+display: flex;
+align-items: center; /* Центрирование по вертикали */
+justify-content: center; /* Центрирование по горизонтали */
+margin-bottom: 10px;
+}
+.Workbook p {
+font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    color: #D6917D;
+    margin-bottom: 0;      
+}
+.Workbook .html-content {
+    display: flex;
+    align-items: center; /* Выравнивание текста и иконки */
+    gap: 10px; /* Расстояние между текстом и иконкой */
+}
+
+.xdget-block .Vvodnii {
+width: 381px;
+height: 71px;
+background: linear-gradient(90deg, #FFDEE2 0%, #FDE1D3 100%);
+border-radius: 10px;
+display: flex;
+align-items: center; /* Центрирование по вертикали */
+justify-content: center; /* Центрирование по горизонтали */
+margin-bottom: 10px;    
+}
+.Vvodnii p {
+font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    color: #D6917D;
+    margin-bottom: 0;    
+}
+.Vvodnii .html-content {
+    display: flex;
+    align-items: center; /* Выравнивание текста и иконки */
+    gap: 10px; /* Расстояние между текстом и иконкой */
+}
+
+.xdget-block .Last  {
+ width: 381px;
+height: 170px;
+background: #FFFFFF;
+border-radius: 10px;
+margin-bottom: 10px;   
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0) !important;
+}
+.Last p {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #9C9C9C;
+padding-top: 20px;
+padding-left: 20px;
+margin: 0;
+}
+.Last .html-content h3 {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+color: #363636;
+padding-top: 10px;
+padding-left: 20px;   
+}
+.lesson-btn {
+width: 150px;
+height: 35px;
+background: #D6917D;
+border-radius: 6px;
+border-color: transparent;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+color: #FFFFFF;
+position: absolute;
+margin-left: 20px;
+bottom: 230px !important;
+top: auto !important;
+transition: background 0.25s ease-in-out; /* Добавляем переход для свойства box-shadow */
+}
+
+.xdget-block .xdget-html:hover {
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.xdget-block .xdget-html {
+transition: box-shadow 0.25s ease-in-out; /* Добавляем переход для свойства box-shadow */
+}
+.lesson-btn:hover{
+background: #AE5E53;
+}
+.lessonurl {
+opacity: 0;    
+}
+
+
+/*====================== Уроки ================================ */
+.lesson-list {
+background: transparent;    
+}
+
+[class*="lesson-id-"] {
+background: url('https://static.tildacdn.com/tild3238-6137-4937-b035-353762396537/Frame_244.png') right  no-repeat;   
+height: 180px;
+background-size: 100%;
+margin-top: 0 !important;
+border-radius: 10px;
+}
+.info {
+background: transparent !important;
+margin-left: 27px !important;
+border-left: 0 !important;
+margin-top: 0px; 
+}
+.hidden-xs {
+display: none;    
+}
+.user-state-bg{
+background: transparent !important; 
+}
+
+.lesson-list {
+padding: 0
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.lesson-list li .title {
+color: #AE5E53;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;  
+}
+
+.lesson-list .description {
+margin-top: 10px;
+color: #AE5E53;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+padding-left: 1px;    
+}
+[class*="lesson-id-"]::before {
+  content: "Урок " counter(lesson) ". ";
+  counter-increment: lesson;
+  font-weight: bold; /* Делаем текст жирным */
+  margin-left: 27px; /* Добавляем отступ */
+  position: relative;
+  top: 20px;
+  color: #9C9C9C;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Обнуляем счетчик перед началом списка */
+[class*="lesson-id-"]:first-child {
+  counter-reset: lesson;
+}
+
+
+
+
+/*===================Задание=======================*/
+.user-state-need_accomplish .user-state-label:before {
+content: "";
+display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
+width: 15px; /* Ширина изображения */
+height: 15px; /* Высота изображения */
+background: url('https://static.tildacdn.com/tild3930-3935-4135-b535-386232383162/Circle_Warning.svg') left center no-repeat;
+padding-top: 20px;
+background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
+margin-left: 0px; /* Отступ слева от псевдоэлемента */
+margin-right: 5px;    
+}
+.user-state-need_accomplish .user-state-label{
+color: #BF3939; 
+display: flex; /* Включаем Flexbox для контейнера */
+align-items: flex-start; /* Выравнивание по центру по вертикали */       
+margin-bottom: 10px;
+margin-top: 5px;
+}
+.user-state-has_mission .user-state-label {
+color: #333 !important;
+margin-bottom: 10px;
+margin-top: 5px;  
+}
+.user-state-label{
+font-family: 'Montserrat' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 14px !important;    
+}
+
+.user-state-not_reached .user-state-label:before{
+content: "";
+display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
+width: 18px; /* Ширина изображения */
+height: 18px; /* Высота изображения */
+background: url('https://static.tildacdn.com/tild3961-3231-4336-a161-633664626136/Lock.svg') left center no-repeat;
+background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
+margin-left: 0px; /* Отступ слева от псевдоэлемента */
+/margin-right: 10px !important;    
+}
+.user-state-not_reached .user-state-label{
+color:#5E5C5C;
+display: flex; /* Включаем Flexbox для контейнера */
+align-items: center; /* Выравнивание по центру по вертикали */       
+position: absolute;
+top: 70%;
+left: 40%;
+transform: scale(2.5);
+z-index: 2;
+}
+.user-state-not_reached .title {
+color: #5D5C5C !important;    
+}
+
+.user-state-not_reached::after{
+content: ""; /* Пустое содержимое */
+  position: absolute; /* Абсолютное позиционирование */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ширина как у основного элемента */
+  height: 100%; /* Высота как у основного элемента */
+  background: rgba(189, 189, 189, 0.01);
+  backdrop-filter: blur(4px);
+  z-index: 1; /* Размещаем под основным контентом */     
+}
+.user-state-not_reached {
+  position: relative; /* Делаем его опорной точкой для псевдоэлемента */
+}
+.error-message-text {
+color: #BF3939;
+margin-left: 5px;
+}
+
+
+/*===================Меню хлебные крошки=======================*/
+.breadcrumbs a { /* Мини меню возврата назад "< тренинги" */
+ font-family: 'Montserrat' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 16px !important;
+color: #AE5E53;    
+align-items: center; /* Выравнивание по центру по вертикали */   
+margin-left: 15px;
+}
+
+.breadcrumbs a:before { /* Стрелка слева для мини меню возврата назад "< тренинги" */
+content: "";
+display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
+width: 15px; /* Ширина изображения */
+height: 15px; /* Высота изображения */
+background: url('https://static.tildacdn.com/tild3236-3233-4137-b865-626135396466/Arrow_10.svg') left center no-repeat;
+background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
+margin-left: 5px; /* Отступ слева от псевдоэлемента */
+}
+.breadcrumbs {
+    font-size: 0; /* Сброс размера шрифта */
+}
+
+/*===================Банер=======================*/
+.main-page-block h1 {
+display: none;    
+}
+
+.top p {
+    background: url('https://static.tildacdn.com/tild3830-3763-4639-b332-666537336332/Group_11322.png') left center no-repeat;
+    width: 96.5% !important;
+    height: 386px;
+    background-size: 100%;
+    margin-left: 20px;
+}
+.top:hover{
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0) !important;       
+}
+
+
+/*===================CSS для поиска===================*/
+@media screen and (min-width: 768px) {
+#searchResults{
+margin-top: 5px;
+border: none !important;
+box-shadow: 0px 5px 8.5px rgba(0, 0, 0, 0.5);
+}
+#searchResults h2{
+margin-top: 15px;
+font-size: 14px;
+font-weight: 600;
+color: #B5705C;
+margin-left: 10px;
+}
+.result-item h3{
+margin-top: 10px;
+font-size: 15px;
+font-weight: 600;
+color: #333333;   
+margin-left: 20px;
+}
+.result-item p{
+font-size: 14px;
+font-weight: 500;
+color: #A9A9A9;
+margin-left: 20px;
+}
+.result-item a{
+padding-left: 15px !important;
+padding-right: 15px !important;
+padding-bottom: 5px;
+padding-top: 5px; 
+margin-left: 20px;
+background: linear-gradient(171.36deg, #C47963 1.76%, #5D3A30 120.93%);
+border-radius: 5px;
+color: #FFFFFF;
+}
+.result-item img{
+display: none;
+
+}
+.lesson-item{
+margin-bottom: 20px;
+}
+#searchContainer {
+height: 50px;
+width: 40% !important;
+border-radius: 10px !important;
+left: 10%;
+}
+
+#searchWrapper{
+background: linear-gradient(171.36deg, #C47963 1.76%, #5D3A30 120.93%);
+height: 70px;
+top: 0;
+bottom: auto;
+position: absolute; 
+}
+}
+
+.logo-link img {
+position: relative;  
+top: -10px; 
+border-radius: 10px;
+}
+.annotate-block {
+position: absolute;
+left: auto;
+right: 40px;
+top: 10px;
+border-radius: 10px;
+background: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+#searchContainerMobile{
+overflow: visible !important;
+}
+#searchInputMobile{
+border-radius: 30px;    
+}
+#searchResultsMobile{
+margin-top: 5px;
+border: none !important;
+box-shadow: 0px 5px 8.5px rgba(0, 0, 0, 0.5);
+width: 90vw !important;
+left: -10vw !important;
+}
+#searchResultsMobile h2{
+margin-top: 15px;
+font-size: 14px;
+font-weight: 400;
+color: #A9A9A9;
+margin-left: 10px;
+}
+.result-item h3{
+margin-top: 10px;
+font-size: 15px;
+font-weight: 600;
+color: #333333;   
+margin-left: 20px;
+}
+.result-item p{
+font-size: 14px;
+font-weight: 500;
+color: #A9A9A9;
+margin-left: 20px;
+}
+.result-item a{
+padding-left: 15px !important;
+padding-right: 15px !important;
+padding-bottom: 5px;
+padding-top: 5px; 
+margin-left: 20px;
+background: linear-gradient(171.36deg, #C47963 1.76%, #5D3A30 120.93%);
+border-radius: 5px;
+color: #FFFFFF;
+}
+.result-item img{
+display: none;
+}
+.lesson-item{
+margin-bottom: 20px;
+}
+#searchContainerMobile{
+left: auto;
+right: 0;
+position: absolute !important;
+box-shadow: 0px 4px 10.5px rgba(0, 0, 0, 0.08);
+margin-top: 5px;
+margin-right: 50px;
+flex-direction: row-reverse;
+}
+.gc-account-leftbar {
+width: 100vw !important;
+    }
+}
+.gc-user-admin .logo-link img {
+top: -41px !important;
+position: relative;
+}
+.logo-link img {
+top: -58px; 
+position: absolute;
+}
+.gc-user-user .page-header{
+display: none;
+}
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+.Vvodnii {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Блик */
+.blink-effect {
+    position: absolute;
+    top: -150%;
+    left: -100%;
+    width: 300%;
+    height: 300%;
+    background: linear-gradient(30deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 80%);
+    filter: blur(8px); /* Делаем мягкое свечение */
+    opacity: 0.8; /* Чуть сильнее, но не перебор */
+    animation: blink-move 1.5s linear infinite;
+}
+
+/* Анимация движения */
+@keyframes blink-move {
+    0% { left: -120%; }
+    100% { left: 120%; }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*====================== Меню ================================ */
+.main-page-block{
+padding-bottom: 0px;    
+}
+.page-control_stream-view {
+background: #F5F1ED    
+}
+
+.Chat p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    color: #D6917D;
+    margin-bottom: 0;
+}
+.xdget-block .Chat {
+width: 90vw !important;
+height: 71px;
+background: linear-gradient(90deg, #FFDEE2 0%, #FDE1D3 100%);
+border-radius: 10px;
+display: flex;
+align-items: center; /* Центрирование по вертикали */
+justify-content: center; /* Центрирование по горизонтали */    
+margin-bottom: 10px;
+}
+.Chat .html-content {
+    display: flex;
+    align-items: center; /* Выравнивание текста и иконки */
+    gap: 10px; /* Расстояние между текстом и иконкой */
+}
+
+.xdget-block .zoom {
+width: 90vw !important;
+height: 71px;
+background: linear-gradient(90deg, #FFDEE2 0%, #FDE1D3 100%);
+border-radius: 10px;
+display: flex;
+align-items: center; /* Центрирование по вертикали */
+justify-content: center; /* Центрирование по горизонтали */     
+}
+.zoom p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    color: #D6917D;
+    margin-bottom: 0;   
+}
+.zoom .html-content {
+    display: flex;
+    align-items: center; /* Выравнивание текста и иконки */
+    gap: 10px; /* Расстояние между текстом и иконкой */
+}
+
+.xdget-block .Workbook {
+width: 90vw !important;
+height: 71px;
+background: linear-gradient(90deg, #FFDEE2 0%, #FDE1D3 100%);
+border-radius: 10px;
+display: flex;
+align-items: center; /* Центрирование по вертикали */
+justify-content: center; /* Центрирование по горизонтали */
+margin-bottom: 10px;
+}
+.Workbook p {
+font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    color: #D6917D;
+    margin-bottom: 0;      
+}
+.Workbook .html-content {
+    display: flex;
+    align-items: center; /* Выравнивание текста и иконки */
+    gap: 10px; /* Расстояние между текстом и иконкой */
+}
+
+.xdget-block .Vvodnii {
+width: 90vw !important;
+height: 71px;
+background: linear-gradient(90deg, #FFDEE2 0%, #FDE1D3 100%);
+border-radius: 10px;
+display: flex;
+align-items: center; /* Центрирование по вертикали */
+justify-content: center; /* Центрирование по горизонтали */
+margin-bottom: 10px;    
+}
+.Vvodnii p {
+font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    color: #D6917D;
+    margin-bottom: 0;    
+}
+.Vvodnii .html-content {
+    display: flex;
+    align-items: center; /* Выравнивание текста и иконки */
+    gap: 10px; /* Расстояние между текстом и иконкой */
+}
+
+.xdget-block .Last  {
+width: 90vw !important;
+height: 170px;
+background: #FFFFFF;
+border-radius: 10px;
+margin-bottom: 10px;   
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0) !important;
+}
+.Last p {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #9C9C9C;
+padding-top: 20px;
+padding-left: 20px;
+margin: 0;
+}
+.Last .html-content h3 {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+color: #363636;
+padding-top: 10px;
+padding-left: 20px;   
+}
+.lesson-btn {
+width: 150px;
+height: 35px;
+background: #D6917D;
+border-radius: 6px;
+border-color: transparent;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+color: #FFFFFF;
+position: absolute;
+margin-left: 20px;
+bottom: 230px !important;
+top: auto !important;
+transition: background 0.25s ease-in-out; /* Добавляем переход для свойства box-shadow */
+}
+
+.xdget-block .xdget-html:hover {
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.xdget-block .xdget-html {
+transition: box-shadow 0.25s ease-in-out; /* Добавляем переход для свойства box-shadow */
+}
+.lesson-btn:hover{
+background: #AE5E53;
+}
+.lessonurl {
+opacity: 0;    
+}
+
+/*====================== Уроки ================================ */
+.lesson-list {
+background: transparent;    
+}
+
+[class*="lesson-id-"] {
+background: url('https://static.tildacdn.com/tild6531-3330-4361-b532-636565363035/Frame_246.png') right  no-repeat;   
+height: 180px;
+width: 88vw !important;
+background-size: 100%;
+margin-top: 0 !important;
+border-radius: 10px;
+}
+.info {
+background: transparent !important;
+margin-left: 0px !important;
+border-left: 0 !important;
+margin-top: 0px; 
+}
+.hidden-xs {
+display: none;    
+}
+.user-state-bg{
+background: transparent !important; 
+}
+
+.lesson-list {
+padding: 0
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.lesson-list li .title {
+color: #AE5E53;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;  
+}
+
+.lesson-list .description {
+margin-top: 10px;
+color: #AE5E53;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+padding-left: 1px;    
+}
+[class*="lesson-id-"]::before {
+  content: "Урок " counter(lesson) ". ";
+  counter-increment: lesson;
+  font-weight: bold; /* Делаем текст жирным */
+  margin-left: 20px; /* Добавляем отступ */
+  position: relative;
+  top: 10px;
+  color: #9C9C9C;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Обнуляем счетчик перед началом списка */
+[class*="lesson-id-"]:first-child {
+  counter-reset: lesson;
+}
+
+
+
+
+/*===================Задание=======================*/
+.user-state-need_accomplish .user-state-label:before {
+content: "";
+display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
+width: 15px; /* Ширина изображения */
+height: 15px; /* Высота изображения */
+background: url('https://static.tildacdn.com/tild3930-3935-4135-b535-386232383162/Circle_Warning.svg') left center no-repeat;
+padding-top: 20px;
+background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
+margin-left: 0px; /* Отступ слева от псевдоэлемента */
+margin-right: 5px;    
+}
+.user-state-need_accomplish .user-state-label{
+color: #BF3939; 
+display: flex; /* Включаем Flexbox для контейнера */
+align-items: flex-start; /* Выравнивание по центру по вертикали */       
+margin-bottom: 10px;
+margin-top: 0px;
+}
+.user-state-has_mission .user-state-label {
+color: #333 !important;
+margin-bottom: 10px;
+margin-top: 5px;  
+}
+.user-state-label{
+font-family: 'Montserrat' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 13px !important;    
+}
+
+.user-state-not_reached .user-state-label:before{
+content: "";
+display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
+width: 18px; /* Ширина изображения */
+height: 18px; /* Высота изображения */
+background: url('https://static.tildacdn.com/tild3961-3231-4336-a161-633664626136/Lock.svg') left center no-repeat;
+background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
+margin-left: 0px; /* Отступ слева от псевдоэлемента */
+/margin-right: 10px !important;    
+}
+.user-state-not_reached .user-state-label{
+color:#5E5C5C;
+display: flex; /* Включаем Flexbox для контейнера */
+align-items: center; /* Выравнивание по центру по вертикали */       
+position: absolute;
+top: 80%;
+left: 35%;
+transform: scale(2);
+z-index: 2;
+}
+.user-state-not_reached .title {
+color: #5D5C5C !important;    
+}
+
+.user-state-not_reached::after{
+content: ""; /* Пустое содержимое */
+  position: absolute; /* Абсолютное позиционирование */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ширина как у основного элемента */
+  height: 100%; /* Высота как у основного элемента */
+  background: rgba(189, 189, 189, 0.01);
+  backdrop-filter: blur(4px);
+  z-index: 1; /* Размещаем под основным контентом */     
+}
+.user-state-not_reached {
+  position: relative; /* Делаем его опорной точкой для псевдоэлемента */
+}
+
+.error-message-text {
+color: #BF3939;
+margin-left: 0px;
+}
+
+
+/*===================Меню хлебные крошки=======================*/
+.breadcrumbs a { /* Мини меню возврата назад "< тренинги" */
+ font-family: 'Montserrat' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 16px !important;
+color: #AE5E53;    
+align-items: center; /* Выравнивание по центру по вертикали */   
+margin-left: 10px;
+}
+
+.breadcrumbs a:before { /* Стрелка слева для мини меню возврата назад "< тренинги" */
+content: "";
+display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
+width: 15px; /* Ширина изображения */
+height: 15px; /* Высота изображения */
+background: url('https://static.tildacdn.com/tild3236-3233-4137-b865-626135396466/Arrow_10.svg') left center no-repeat;
+background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
+margin-left: 5px; /* Отступ слева от псевдоэлемента */
+}
+.breadcrumbs {
+    font-size: 0; /* Сброс размера шрифта */
+}
+
+/*===================Банер=======================*/
+.main-page-block h1 {
+display: none;    
+}
+
+.top p {
+    background: url('https://static.tildacdn.com/tild3562-3364-4532-a265-656134623233/Group_11326.png') left center no-repeat;
+    width: 96.5% !important;
+    height: 200px;
+    background-size: 100%;
+    margin-bottom: 30px;
+}
+.top:hover{
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0) !important;       
+}
+
+
+/*===================CSS для поиска===================*/
+@media screen and (min-width: 768px) {
+#searchResults{
+margin-top: 5px;
+border: none !important;
+box-shadow: 0px 5px 8.5px rgba(0, 0, 0, 0.5);
+}
+#searchResults h2{
+margin-top: 15px;
+font-size: 14px;
+font-weight: 600;
+color: #B5705C;
+margin-left: 10px;
+}
+.result-item h3{
+margin-top: 10px;
+font-size: 15px;
+font-weight: 600;
+color: #333333;   
+margin-left: 20px;
+}
+.result-item p{
+font-size: 14px;
+font-weight: 500;
+color: #A9A9A9;
+margin-left: 20px;
+}
+.result-item a{
+padding-left: 15px !important;
+padding-right: 15px !important;
+padding-bottom: 5px;
+padding-top: 5px; 
+margin-left: 20px;
+background: linear-gradient(171.36deg, #C47963 1.76%, #5D3A30 120.93%);
+border-radius: 5px;
+color: #FFFFFF;
+}
+.result-item img{
+display: none;
+
+}
+.lesson-item{
+margin-bottom: 20px;
+}
+#searchContainer {
+height: 50px;
+width: 40% !important;
+border-radius: 10px !important;
+left: 10%;
+}
+
+#searchWrapper{
+background: linear-gradient(171.36deg, #C47963 1.76%, #5D3A30 120.93%);
+height: 70px;
+top: 0;
+bottom: auto;
+position: absolute; 
+}
+}
+
+.logo-link img {
+position: relative;  
+top: -10px; 
+border-radius: 10px;
+}
+.annotate-block {
+position: absolute;
+left: auto;
+right: 40px;
+top: 10px;
+border-radius: 10px;
+background: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+#searchContainerMobile{
+overflow: visible !important;
+}
+#searchInputMobile{
+border-radius: 30px;    
+}
+#searchResultsMobile{
+margin-top: 5px;
+border: none !important;
+box-shadow: 0px 5px 8.5px rgba(0, 0, 0, 0.5);
+width: 90vw !important;
+left: -10vw !important;
+}
+#searchResultsMobile h2{
+margin-top: 15px;
+font-size: 14px;
+font-weight: 400;
+color: #A9A9A9;
+margin-left: 10px;
+}
+.result-item h3{
+margin-top: 10px;
+font-size: 15px;
+font-weight: 600;
+color: #333333;   
+margin-left: 20px;
+}
+.result-item p{
+font-size: 14px;
+font-weight: 500;
+color: #A9A9A9;
+margin-left: 20px;
+}
+.result-item a{
+padding-left: 15px !important;
+padding-right: 15px !important;
+padding-bottom: 5px;
+padding-top: 5px; 
+margin-left: 20px;
+background: linear-gradient(171.36deg, #C47963 1.76%, #5D3A30 120.93%);
+border-radius: 5px;
+color: #FFFFFF;
+}
+.result-item img{
+display: none;
+}
+.lesson-item{
+margin-bottom: 20px;
+}
+#searchContainerMobile{
+left: auto;
+right: 0;
+position: absolute !important;
+box-shadow: 0px 4px 10.5px rgba(0, 0, 0, 0.08);
+margin-top: 5px;
+margin-right: 50px;
+flex-direction: row-reverse;
+}
+.gc-account-leftbar {
+width: 100vw !important;
+    }
+}
+.gc-user-admin .logo-link img {
+top: -41px !important;
+position: relative;
+}
+.logo-link img {
+top: -58px; 
+position: absolute;
+}
+.gc-user-user .page-header{
+display: none;
+}
+}
