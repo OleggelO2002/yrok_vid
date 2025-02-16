@@ -896,10 +896,11 @@ display: none;
 
 .top p {
     background: url('https://static.tildacdn.com/tild3562-3364-4532-a265-656134623233/Group_11326.png') left center no-repeat;
-    width: 96.5% !important;
+    width: 88% !important;
     height: 200px;
     background-size: 100%;
     margin-bottom: 30px;
+    margin-left: 20px;
 }
 .top:hover{
 box-shadow: 0px 4px 15px rgba(0, 0, 0, 0) !important;       
