@@ -831,7 +831,7 @@ margin-left: 0px; /* Отступ слева от псевдоэлемента *
 /margin-right: 10px !important;    
 }
 .user-state-not_reached .user-state-label{
-        color: #5E5C5C;
+        color: #BF3939;
         display: flex;
         align-items: center;
         position: absolute;
