@@ -294,7 +294,7 @@ content: "";
 display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
 width: 18px; /* Ширина изображения */
 height: 18px; /* Высота изображения */
-background: url('https://static.tildacdn.com/tild3361-6539-4963-a362-636637366161/Lock.svg') left center no-repeat;
+background: url('https://static.tildacdn.com/tild3961-3231-4336-a161-633664626136/Lock.svg') left center no-repeat;
 background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
 margin-left: 0px; /* Отступ слева от псевдоэлемента */
 /margin-right: 10px !important;    
@@ -825,7 +825,7 @@ content: "";
 display: inline-block; /* Позволяет задать размеры для псевдоэлемента */
 width: 18px; /* Ширина изображения */
 height: 18px; /* Высота изображения */
-background: url('https://static.tildacdn.com/tild3961-3231-4336-a161-633664626136/Lock.svg') left center no-repeat;
+background: url('https://static.tildacdn.com/tild3361-6539-4963-a362-636637366161/Lock.svg') left center no-repeat;
 background-size: contain; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
 margin-left: 0px; /* Отступ слева от псевдоэлемента */
 /margin-right: 10px !important;    
