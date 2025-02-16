@@ -725,9 +725,9 @@ background: transparent;
 
 [class*="lesson-id-"] {
 background: url('https://static.tildacdn.com/tild6531-3330-4361-b532-636565363035/Frame_246.png') right  no-repeat;   
-height: 180px;
+height: 200px;
 width: 88vw !important;
-background-size: 100%;
+background-size: 110%;
 margin-top: 0 !important;
 border-radius: 10px;
 }
