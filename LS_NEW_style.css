@@ -831,14 +831,14 @@ margin-left: 0px; /* Отступ слева от псевдоэлемента *
 /margin-right: 10px !important;    
 }
 .user-state-not_reached .user-state-label{
-color:#5E5C5C;
-display: flex; /* Включаем Flexbox для контейнера */
-align-items: center; /* Выравнивание по центру по вертикали */       
-position: absolute;
-top: 80%;
-left: 35%;
-transform: scale(1.3);
-z-index: 2;
+        color: #5E5C5C;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 70%;
+        left: 15%;
+        transform: scale(1.3);
+        z-index: 2;
 }
 .user-state-not_reached .title {
 color: #5D5C5C !important;    
