@@ -305,7 +305,7 @@ display: flex; /* Включаем Flexbox для контейнера */
 align-items: center; /* Выравнивание по центру по вертикали */       
 position: absolute;
 top: 70%;
-left: 40%;
+left: 30%;
 transform: scale(2.5);
 z-index: 2;
 }
