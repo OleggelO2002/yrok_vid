@@ -323,7 +323,7 @@ color: #5D5C5C !important;
 /*  background: rgba(189, 189, 189, 0.01);
   backdrop-filter: blur(4px);
   z-index: 1;*/ /* Размещаем под основным контентом */     
-}
+/*}*/
 .user-state-not_reached {
   position: relative; /* Делаем его опорной точкой для псевдоэлемента */
 }
@@ -854,7 +854,7 @@ color: #5D5C5C !important;
  /* background: rgba(189, 189, 189, 0.01);
   backdrop-filter: blur(4px);
   z-index:*/ 1; /* Размещаем под основным контентом */     
-}
+/*}*/
 .user-state-not_reached {
   position: relative; /* Делаем его опорной точкой для псевдоэлемента */
 }
